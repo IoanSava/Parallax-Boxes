@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="icon" type="image/png" href="img/icon.png" sizes="16x16" >
+<link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+<link rel="stylesheet" href="css/coming.css" type="text/css"></link>
+<meta charset="utf-8"></meta>
+<title> Coming soon </title>
+
+</head>
+
+<body>
+
+<div class="bgimg">
+
+  <div class="middle">
+
+    <h1> Coming soon </h1>
+
+    <hr>
+
+    <p id="demo"></p>
+
+  </div>
+
+</div>
+
+<script>
+
+var countDownDate= new Date("Jul, 31, 2019 00:00:00").getTime();
+
+var countDownfunction= setInterval(function(){
+
+var now= new Date().getTime();
+
+var time= countDownDate -now;
+
+var days= Math.floor(time/(1000*60*60*24));
+var hours= Math.floor((time%(1000*60*60*24))/(1000*60*60));
+var minutes= Math.floor((time%(1000*60*60))/(1000*60));
+var seconds= Math.floor((time%(1000*60))/1000);
+
+document.getElementById("demo").innerHTML= days + "d  " + hours + "h  " + minutes + "m  " + seconds + "s  ";
+
+if(time<0)
+{
+  clearInterval(countDownfunction);
+  document.getElementById("demo").innerHTML= "Happy birthday";
+}
+},1000);
+</script>
+
+
+
+</body>
+</html>
