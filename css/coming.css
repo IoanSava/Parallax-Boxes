@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bgimg {
+ background:URL('../img/mount.jpg');
+ height:100%;
+ background-position: center;
+ background-size:cover;
+ position: relative;
+ color: #fff;
+ font-family:Mukta Mahee;
+}
+
+.middle{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+p {
+  font-size:30px;
+}
+
+h1{
+  font-size: 60px;
+  font-weight:100;
+}
+
+#demo {
+  font-weight: lighter;
+  word-spacing: 5px;
+}
+
+hr {
+  margin:auto;
+  width:80%;
+  border:1.5px solid #fff;
+}
