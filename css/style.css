@@ -1,69 +1,60 @@
-body , html{
-  margin:0;
-  padding:0;
+body, html {
+	margin: 0;
+	padding: 0;
 }
 
-h1{
-  font-family: Mukta Mahee;
-  font-size:50px;
-  color:white;
-  margin:0px;
-  text-align:center;
-  display: table-cell;
-  vertical-align: middle;
-  letter-spacing:8px;
+h1 {
+	font-family: Mukta Mahee;
+	font-size: 50px;
+	color: white;
+	margin: 0;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	letter-spacing: 8px;
 }
 
-a{
-  text-decoration: none;
+a {
+	text-decoration: none;
 }
 
-#box1 {
-  background: url('../img/b1.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  display: table;
-  background-attachment: fixed;
+.box {
+	height: 100vh;
+	width: 100%;
+	display: table;
 }
 
-#box2 {
-  background: url('../img/b2.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  display: table;
-  background-attachment: fixed;
+#about {
+	background: url('../images/about_background.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-#box3 {
-  background: url('../img/b3.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  display: table;
-  background-attachment: fixed;
+#places {
+	background: url('../images/places_background.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-#box4 {
-  background: url('../img/b4.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  display: table;
-  background-attachment: fixed;
+#fairy-tales {
+	background: url('../images/fairy_tales_background.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-#box5 {
-  background: url('../img/b5.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  display: table;
-  background-attachment: fixed;
+#contact {
+	background: url('../images/contact_background.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#coming-soon {
+	background: url('../images/coming_soon_background.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
